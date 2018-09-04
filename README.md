@@ -22,7 +22,7 @@ This successfully builds an image and pushes it to Docker Hub.
 * Run the pipeline2 pipeline as part of a workflow (fails)
 
 ```
-wercker workflow all
+wercker workflow just2
 ```
 
 The `docker-push` step fails with
@@ -41,4 +41,4 @@ denied: requested access to the resource is denied
 FATAL Unable to run workflow: unable to run pipeline pipeline2: Step failed: docker push
 ```
 
-Note that this workflow runs without error in wercker.com: see https://app.wercker.com/nigeldeakin/push-issue/runs
+Note that this pipeline runs without error in wercker.com: see https://app.wercker.com/nigeldeakin/push-issue/runs

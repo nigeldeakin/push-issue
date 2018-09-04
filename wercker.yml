@@ -14,7 +14,7 @@ pipeline1:
   steps:
     - script:    
         name: Dummy step
-        code: This is just a dummy step
+        code: echo This is just a dummy step
 
 pipeline2:
   box: golang
