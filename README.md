@@ -1,6 +1,6 @@
 # Test case to reproduce the issue
 
-To reproduce the issue, follow these steps:
+To reproduce the issue, follow these steps.
 
 * Clone this repository to your local machine
 
@@ -40,3 +40,5 @@ denied: requested access to the resource is denied
 --> Pipeline failed: 39.05s
 FATAL Unable to run workflow: unable to run pipeline pipeline2: Step failed: docker push
 ```
+
+Note that this workflow runs withotu error in wercker.com: see https://app.wercker.com/nigeldeakin/push-issue/runs
