@@ -41,4 +41,4 @@ denied: requested access to the resource is denied
 FATAL Unable to run workflow: unable to run pipeline pipeline2: Step failed: docker push
 ```
 
-Note that this workflow runs withotu error in wercker.com: see https://app.wercker.com/nigeldeakin/push-issue/runs
+Note that this workflow runs without error in wercker.com: see https://app.wercker.com/nigeldeakin/push-issue/runs
