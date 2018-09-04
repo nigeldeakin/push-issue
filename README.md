@@ -1,5 +1,7 @@
 # Test case to reproduce the issue
 
+To reproduce the issue, follow these steps:
+
 * Clone this repository to your local machine
 
 * Open a shell and navigate to the cloned repository
