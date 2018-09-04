@@ -20,9 +20,6 @@ pipeline1:
             echo Environment variable \$PASSWORD is not set
             return 1
           fi     
-    - script:
-        name: Copy contents of the cloned repo to /pipeline/output for next pipeline to use
-        code: cp -r /pipeline/source/* /pipeline/output
 
 pipeline2:
   box: golang
