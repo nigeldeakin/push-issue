@@ -10,16 +10,8 @@ pipeline1:
   box: golang
   steps:
     - script:    
-        name: Check environment variables
-        code: |
-          if [[ -z "$USERNAME" ]]; then
-            echo Environment variable \$USERNAME is not set
-            return 1
-          fi   
-          if [[ -z "$PASSWORD" ]]; then
-            echo Environment variable \$PASSWORD is not set
-            return 1
-          fi     
+        name: Dummy step
+        code: This is just a dummy step
 
 pipeline2:
   box: golang
